@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>paragraph</title>
+
+    <style>
+        table,th,td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Test 1</h1>
+    <p>Tes <b> <i>Pertama</i> </b></p>
+
+    <ol type="1">
+        <li>satu</li>
+        <li>dua</li>
+    </ol>
+    <!-- liat dulu kulit terluar table -->
+    <table> 
+        <!-- ini adalah level 1 -->
+        <tr>
+            <!-- ini adlaah level 2 sebagai head table -->
+            <th>head 1</th>
+            <th>head 1</th>
+            <th>head 1</th>
+        </tr>
+        <tr>
+            <td>A1</td>
+            <td>A2</td>
+            <td>A3</td>
+        </tr>
+        <tr>
+            <td>B1</td>
+            <td>B2</td>
+            <td>B3</td>
+        </tr>
+    </table>
+    <!-- manggabung table di sebut magre -->
+    <table>
+        <tr>
+            <th>Asal</th>
+            <th>Domisili</th>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <center>banjarmasin</center>
+            </td>
+            
+        </tr>
+    </table>
+    <!-- rowspan -->
+    <table>
+        <tr>
+            <th rowspan="2">banjarmasin</th>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>D</td>
+        </tr>
+    </table>
+    <!-- absolute link dan relative link -->
+    <p>
+        <a href="https://www.google.com">google</a>
+    </p>
+
+    <p>
+        <a href="https://www.google.com" target="_blank" >google</a>
+    </p>
+
+    </p>
+    <p>
+        <a href="index.html" >google</a>
+    </p>
+    </p>
+
+    <p>
+        <a href="index.html" target="_blank" >google</a>
+    </p>
+
+
+    <!-- Id Link -->
+    <p>
+        <a href="#aku">Tombol Pencari nama ku</a>
+        <h2 id="kau">Hu Tau</h2>
+        <h2 id="kau">Hu Tau</h2>
+        <h2 id="kau">Hu Tau</h2>
+        <h2 id="kau">Hu Tau</h2>
+        <h2 id="kau">Hu Tau</h2>
+        <h2 id="kau">Hu Tau</h2>
+        <h2 id="kau">Hu Tau</h2>
+        <h2 id="kau">Hu Tau</h2>
+        <h2 id="aku">Lumine</h2>
+
+    </p>
+    <img src="foto.png" alt="jupiter" width="200" height="200">
+
+
+    <!-- cara membuat form di html -->
+    <form action="" method="post">
+        <label for="name">Nama: </label>
+        <input id="name" type="text">
+        <br>
+        <input type="password">
+        <br>
+        <input type="checkbox">
+        <br>
+        <input type="radio">
+        <br>
+        <input type="number" min="1" max="10">
+        <br>
+        <textarea name="kolom" id="" cols="30" rows="10">Ketik disibi ya</textarea>
+        <br>
+        <input type="submit" value="OK">
+
+    </form>
+
+    <button type="button">
+        OK
+    </button>
+
+
+    <!-- select form -->
+    <p>apa waran favort mu</p>
+    <select name="" id="">
+        <option>Merah</option>
+        <option>Putih</option>
+        <option>Biru</option>
+    </select>
+
+</body>
+</html>
